@@ -164,7 +164,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "I thought it was impossible to make a website as beautiful as our product, but Rudra proved me wrong.",
       name: "Sanjay Rawat",
       designation: "Owner",
       company: "Plastify",
