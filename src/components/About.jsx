@@ -36,7 +36,7 @@ const About = () => {
    As a full-stack developer, I have the exciting role of crafting entire web experiences from the ground up, using my skills to design and develop both the frontend and backend of websites, ensuring they function seamlessly and look visually appealing.
    <br />
    </motion.p>
-   Here's My &nbsp; <a href="https://drive.google.com/file/d/1ehvkQtEZhRnqs6pZI2RmavEwxBhgHcWk/view?usp=sharing" className='text-red-600 underline'>Resume</a> &nbsp; <a href="https://github.com/rudra016" className='text-red-600 underline'>Github</a> &nbsp; <a href="https://www.linkedin.com/in/rudra-sharma-897264227/" className='text-red-600 underline'>LinkedIn</a>
+   Here's My &nbsp; <a href="https://drive.google.com/file/d/1ehvkQtEZhRnqs6pZI2RmavEwxBhgHcWk/view?usp=sharing" className='text-red-600 underline'>Resume</a> &nbsp; <a href="https://github.com/rudra016" className='text-red-600 underline'>Github</a> &nbsp; <a href="https://www.linkedin.com/in/rudra-kumar-897264227/" className='text-red-600 underline'>LinkedIn</a>
    <div className='mt-20 flex flex-wrap gap-10'>
     { services.map((service,index)=>(
       <ServiceCard key={service.title} index={index} {...service} />
