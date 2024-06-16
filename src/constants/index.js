@@ -189,6 +189,27 @@ import {
   ];
   
   const projects = [
+      {
+      name: "Flux Form",
+      description:
+        "Effortlessly design AI-driven forms that captivate users and gather insights like never before. Transform data collection into a seamless experience!",
+      tags: [
+        {
+          name: "NextJS13",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NeonDB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "DrizlleORM",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://flux-form.vercel.app",
+    },
     {
       name: "Crypto Tracker",
       description:
@@ -231,27 +252,7 @@ import {
       image: jobit,
       source_code_link: "https://netflix-clone-react-9a25e.web.app",
     },
-    {
-      name: "Movie Info App",
-      description:
-        "Developed a website where users can typically search for movies by title and the website may also feature a wide range of additional functionality such as trailers and short description.",
-      tags: [
-        {
-          name: "TmdbApi",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Netlify",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Html&css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://moviedovvy.netlify.app",
-    },
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };
