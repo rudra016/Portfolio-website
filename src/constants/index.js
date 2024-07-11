@@ -211,6 +211,27 @@ import {
       source_code_link: "https://flux-form.vercel.app",
     },
     {
+      name: "Deal Dropper",
+      description:
+        " Developed using Next.js and Bright Data's webunlocker, this e-commerce product scraping site is designed to assist users in making informed decisions.",
+      tags: [
+        {
+          name: "NextJs13",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "BrightData",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Web Scraping",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: jobit,
+      source_code_link: "https://trackittoday.vercel.app",
+    },
+    {
       name: "Crypto Tracker",
       description:
         "Developed and launched a cryptocurrency tracking website leveraging CoinGecko API, providing real-time market data, price charts, and essential information for investors and enthusiasts.",
@@ -231,27 +252,7 @@ import {
       image: carrent,
       source_code_link: "https://xcrypto-react-js-chakra-ui.vercel.app",
     },
-    {
-      name: "Netflix Clone",
-      description:
-        "Developed a Netflix clone website using React.js, implementing user authentication and a personalized feature allowing users to save and manage their favorite shows and movies & login auth using firebase.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "firebase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://netflix-clone-react-9a25e.web.app",
-    },
+    
     
   ];
   
