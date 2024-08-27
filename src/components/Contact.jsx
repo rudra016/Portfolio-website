@@ -19,11 +19,12 @@ const Contact = () => {
     const { name, value } = e.target;
     setForm({...form, [name]:value})
   }
+  const serviceId = process.env.REACT_APP_SERVICE_ID;
 
   const handleSubmit = (e) => {
     e.preventDefault()
     setLoading(true);
-    emailjs.send(process.env.SERV,'template_w4aarur', {from_name:form.name, to_name:'Rudra', from_email:form.email,to_email:'rudra619kumar@gmail.com',message:form.message},'iVe3KTYHvtE4dZ3BT').then(()=>{
+    emailjs.send(serviceId,'template_w4aarur', {from_name:form.name, to_name:'Rudra', from_email:form.email,to_email:'rudra619kumar@gmail.com',message:form.message},'iVe3KTYHvtE4dZ3BT').then(()=>{
       setLoading(false);
       alert('Thank you, I will get back to you soon')
       setForm({
