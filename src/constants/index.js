@@ -151,12 +151,23 @@ import {
       company_name: "GDSC BBDITM",
       icon: gdsc,
       iconBg: "#fff",
-      date: "Sept 2023 - Present",
+      date: "Sept 2023 - Sept 2024",
       points: [
         "Provided strong technical leadership to the GDSC team, fostering a collaborative and innovative environment.",
         "Led the planning and execution of technical projects within the GDSC, ensuring successful delivery and meeting project objectives.",
         "Organized and conducted technical workshops, hackathons, and training sessions to educate club members on relevant technologies and tools.",
         "Facilitated hands-on coding sessions, encouraging practical learning experiences for members.",
+      ],
+    },
+{
+      title: "Full Stack Developer Intern",
+      company_name: "Banao Technologies",
+      icon: gdsc,
+      iconBg: "#fff",
+      date: "July 2024 - Present",
+      points: [
+        "Managing the full-stack development lifecycle, implementing Node.js for scalable backend solutions, resulting in a 25% improvement in application responsiveness and reliability.",
+        "Collaborated with cross-functional teams to design and deploy innovative features, driving a 15% increase in project completion efficiency and enhancing overall user experience.",
       ],
     },
   ];
