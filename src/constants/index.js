@@ -4,6 +4,7 @@ import {
     creator,
     web,
     intern,
+    download,
     javascript,
     typescript,
     html,
@@ -162,7 +163,7 @@ import {
 {
       title: "Full Stack Developer Intern",
       company_name: "Banao Technologies",
-      icon: gdsc,
+      icon: download,
       iconBg: "#fff",
       date: "July 2024 - Present",
       points: [
